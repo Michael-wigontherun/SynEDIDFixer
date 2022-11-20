@@ -1,0 +1,9 @@
+{
+  "Nickname": "SynEDIDFixer",
+  "Visibility": "Visible",
+  "OneLineDescription": "Synthesis Patcher for SPID type mods that use EditorIDs to distibute objects",
+  "LongDescription": "",
+  "PreferredAutoVersioning": "Default",
+  "RequiredMods": [],
+  "TargetedReleases": []
+}
