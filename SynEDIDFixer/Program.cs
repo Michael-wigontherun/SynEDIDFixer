@@ -1,13 +1,5 @@
-using Mutagen.Bethesda;
 using Mutagen.Bethesda.Synthesis;
 using Mutagen.Bethesda.Skyrim;
-using Mutagen.Bethesda.Plugins.Records;
-using Mutagen.Bethesda.Plugins;
-using System.Collections.Immutable;
-using Mutagen.Bethesda.Plugins.Cache.Internals.Implementations;
-using Noggog;
-using CommandLine;
-using Mutagen.Bethesda.Plugins.Cache;
 
 namespace SynEDIDFixer
 {
