@@ -1,5 +1,6 @@
 using Mutagen.Bethesda.Synthesis;
 using Mutagen.Bethesda.Skyrim;
+using Mutagen.Bethesda;
 
 namespace SynEDIDFixer
 {
@@ -9,6 +10,7 @@ namespace SynEDIDFixer
         {
             return await SynthesisPipeline.Instance
                 .AddPatch<ISkyrimMod, ISkyrimModGetter>(RunPatch)
+                .SetTypicalOpen(GameRelease.SkyrimSE, "SynEDIDFixer.esp")
                 .Run(args);
         }
 
